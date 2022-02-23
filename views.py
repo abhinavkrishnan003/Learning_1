@@ -4,3 +4,6 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse('Hello world')
+
+def check(request):
+    return HttpResponse('Hi this is a change made to git using clone method!')
